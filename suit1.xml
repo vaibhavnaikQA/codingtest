@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suit1" parallel="tests" thread-count="1">
+    <test verbose="2" preserve-order="true" name="apitest">
+        <classes>
+            <class name="org.java.runner.CucumberRunnerTests"></class>
+        </classes>
+    </test>
+</suite>

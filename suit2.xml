@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suit2">
+    <parameter name="a" value="2"></parameter>
+    <parameter name="b" value="3"></parameter>
+    <test verbose="2" preserve-order="true" name="regressiontest">
+        <classes>
+            <class name="org.test.test_first_4">
+                
+            </class>
+            <class name="org.test.data_profider"></class>
+            <class name="org.test.listnerTest"></class>
+        </classes>
+    </test>
+</suite>
