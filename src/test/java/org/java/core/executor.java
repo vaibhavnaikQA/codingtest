@@ -14,7 +14,7 @@ public class executor {
     private String PAYLOAD;
     private static JsonNode RESPONSE;
     private String HEADERS;
-    public static void getRequest(String url, String method, String payload){
+    public static void postRequest(String url, String method, String payload){
         try {
             URL URL = new URL(url);
             HttpURLConnection connection = (HttpURLConnection) URL.openConnection();
